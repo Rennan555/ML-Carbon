@@ -8,6 +8,7 @@ PROJETO DE REDES NEURAIS PARA FIBRAS DE CARBONO - PETROBRÁS
 1.4. Pickle (): Salvar acurárias dos modelos para comparação
 1.5. Pandas (1.5.3v): Importação do dataset de formato .csv
 1.6. OS (): Selecionar e verificar diretórios específicos
+1.7. Mathplotlib (): Plotar gráficos de acurácia e loss
 
 2. Propriedades do Dataset:
 
