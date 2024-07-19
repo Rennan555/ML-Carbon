@@ -1,3 +1,4 @@
+from mlxtend.plotting import plot_decision_regions
 from tensorflow.keras import backend as K
 import matplotlib.pyplot as plt
 
@@ -40,3 +41,13 @@ def loss_decay(history):
     plt.legend()
 
     plt.show()
+
+def plot_decision_boundary(X_test, y_test, model):
+
+    plt.scatter(X_test[:,0], X_test[:,1])
+    plt.title('Fronteira de Decisão')
+    plt.xlabel('X1')
+    plt.ylabel('X2')
+    plt.show()
+
+    plot_decision_regions(X_test, y_test, clf=model, legend=2)
